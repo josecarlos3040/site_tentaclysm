@@ -1,0 +1,48 @@
+/* Estilos gerais */
+body {
+    background-color: #2c3e50; 
+    font-family: sans-serif;
+}
+
+#apresentacao, #personagens, #cenario, #galeria, #equipe {
+    background-image: url('caminho/para/sua/imagem-de-fundo.png');
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    border-bottom: 2px solid #34495e;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-equipe {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f39c12; 
+}
+
+.carousel-item img {
+    height: 500px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px; 
+    }
+}

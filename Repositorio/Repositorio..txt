@@ -1,1 +1,7 @@
+
+GigPages:
+https://josecarlos3040.github.io/site_tentaclysm/
+
+
+repositorio:
 https://github.com/josecarlos3040/site_tentaclysm
